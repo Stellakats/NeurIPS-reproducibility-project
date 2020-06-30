@@ -8,5 +8,5 @@ The method presented in the paper, aims to classify instances by semantic-guided
 This is achieved by developing a complex network that consists of three subnetworks: one that implements attention on the input image in order to focus on discriminative parts of the image. A second one that utilizes the attention maps produced, by cropping the image so that the highest value of the map is at the center of a square. And a third one, which is called “joint feature learning subnet”, receives the original images as well as the cropped ones, extracts their features and maps them to the semantic space producing a compatibility score.
 Three types of losses, one of them custom-made, are employed to support the optimization of the model.
 
-This project was created by our team of 3 machine learning Master's students and the original code can be foung [here](https://github.com/LindsayXX/DD2412_project).
+This project was created by our team of 3 machine learning Master's students;the source code can be found [here](https://github.com/LindsayXX/DD2412_project).
  
